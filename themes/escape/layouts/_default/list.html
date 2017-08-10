@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<header class="jumbotron">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+{{ end }}
+<main class="container">
+  {{ .Content }}
+
+  {{ range (where .Data.Pages "Section" "!=" "") }}
+  <article>
+    <h2><a href="{{ .URL }}">{{ .Title }}</a></h2>
+    {{ if and .Params.date .Params.author }}<p>Published on {{ .Date.Format "2 January 2006" }} by {{ .Params.author }}</p>{{ end }}
+    {{ .Content | safeHTML | truncate 140 }}
+    <p><a class="btn btn-secondary" href="{{ .URL }}">Read more »</a></p>
+  </article>
+  {{ end }}
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<header class="jumbotron">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ if and .Params.date .Params.author }}<p class="lead">Published on {{ .Date.Format "2 January 2006" }} by {{ .Params.author }}</p>{{ end }}
+  </div>
+</header>
+<main class="container">
+  {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}

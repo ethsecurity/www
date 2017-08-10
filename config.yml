@@ -1,0 +1,31 @@
+baseURL: "http://ethsecurity.org/"
+languageCode: "en-us"
+title: "Ethereum Security Consortium"
+theme: "escape"
+
+publishDir: docs
+
+menu:
+  main:
+    - Name: "About"
+      URL: "/about"
+      Weight: 10
+    - Name: "Standards"
+      URL: "/standards"
+      Weight: 20
+    - Name: "Tools"
+      URL: "/tools"
+      Weight: 30
+    - Name: "Participate"
+      URL: "/participate"
+      Weight: 40
+    - Name: "Blog"
+      URL: "/blog"
+      Weight: 50
+    - Name: "Contact"
+      URL: "/contact"
+      Weight: 60
+
+permalinks:
+  page: /:title/
+  blog: /blog/:title/

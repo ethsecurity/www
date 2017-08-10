@@ -1,0 +1,16 @@
+.jumbotron {
+    color: #fff;
+    background-color: #0275D8;
+}
+#mission, #footer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#footer {
+    color: #636c72; /* Bootstrap muted color */
+}
+pre {
+    padding: 0.5rem 1rem;
+    background-color: #f7f7f7;
+}

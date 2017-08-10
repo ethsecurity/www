@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Ethereum Security Consortium</title>
+    <link>http://ethsecurity.org/page/</link>
+    <description>Recent content in Pages on Ethereum Security Consortium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://ethsecurity.org/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://ethsecurity.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ethsecurity.org/about/</guid>
+      <description>The Ethereum Security Consortium (ESC) is a decentralized autonomous consortium where membership organizations, part-time staff, and the public work together to develop operational security standards.  The consortium was founded by Dick Olsson in July 2017 when submitting the first standard proposal as part of EIP-679. Frequently asked questions  What is &#34;OPSEC&#34;?   OPSEC is an abbreviation for Operational Security — the process that identifies critical information or processes that need protection.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://ethsecurity.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ethsecurity.org/contact/</guid>
+      <description>Use any of the below email addresses to get in touch with the Ethereum Security Consortium. If your message contain any sort of sensitive information use the below PGP-key to encrypt your message.
+General inquiry For general inquiries: contact@ethsecurity.org
+Report a vulnerability If you have found a vulnerability in an Ethereum project you should first try to contact the maintainer of that project. If the maintainer, however, does not provide any means for secure and responsible disclosure, then you can contact ESC and we will help you with due diligence.</description>
+    </item>
+    
+    <item>
+      <title>Participate</title>
+      <link>http://ethsecurity.org/participate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ethsecurity.org/participate/</guid>
+      <description>ESC invites the public to participate in ESC via IRC, blogs, translations, and other means described below. ESC work with the public through specification reviews as well as contribution of use cases, tests and implementation feedback. Weekly Gitter meetings  ESC is meeting every Thursday at 17:00 UTC discuss various topics: https://gitter.im/ethsecurity/general. Code  All source code produced by ESC is published on our Github organization.  Memberships  Organizations join ESC to drive the direction of operational security standards and practices for the Ethereum ecosystem.</description>
+    </item>
+    
+    <item>
+      <title>Standards</title>
+      <link>http://ethsecurity.org/standards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ethsecurity.org/standards/</guid>
+      <description>The goal is to produce standards that compliment, and where relevant replace, existing industry standards such as ISO 27001:2013.  ESC standards are being governed by a process called Ethereum Opsec Proposals (EOPs) and managed in the EOP Github repository. The process is defined by EOP-1.  All standards should first be considered as an Ethereum Improvement Proposal (EIP) and only proposals that are out of scope for EIP should be submitted as EOP.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://ethsecurity.org/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ethsecurity.org/tools/</guid>
+      <description>Below you will find information about the various tools ESC is working on.
+EVRF command-line tool  Link: (not yet published) Status: Work in progress  ESC is working on a CLI tool for managing and disclosing vulnerabilities according to the EVRF standard. OVAL repository Link: (not yet published) Status: Work in progress  ESC is working on setting up an OVAL repository to distribute vulnerabilities reported according to the EVRF standard.</description>
+    </item>
+    
+  </channel>
+</rss>

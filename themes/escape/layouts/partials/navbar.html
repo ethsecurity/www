@@ -1,0 +1,17 @@
+<nav class="navbar navbar-toggleable-md navbar-light">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
+    <div class="collapse navbar-collapse" id="navbar-nav">
+      <ul class="nav navbar-nav">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

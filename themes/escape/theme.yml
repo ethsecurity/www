@@ -1,0 +1,19 @@
+name: "Escape"
+license: "GPLv2"
+licenselink: "https://github.com/dickolsson/hugo-escape/blob/master/LICENSE.md"
+description: "Escape is a minimalistic Bootstrap theme for Hugo."
+homepage: "https://github.com/dickolsson/hugo-escape"
+tags:
+  - "minimal"
+  - "minimalist"
+  - "simple"
+  - "starter"
+  - "bootstrap"
+features:
+  - "blog"
+
+min_version: "0.25.1"
+
+author:
+  name: "Dick Olsson"
+  homepage: "https://dickolsson.com"
